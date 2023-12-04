@@ -1,0 +1,79 @@
+body {
+
+    background-image: url("../../Photos/Stream\ BC.jpg");
+    background-position: -1735px 0px;
+    background-repeat: no-repeat;
+
+}
+
+h1, p {
+
+    color: white;
+    text-align: center;
+
+}
+
+li {
+    color: white;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+body .hdr {
+
+    margin-top: 30px;
+    font-weight: 500;
+
+}
+
+li {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.sec {
+    height: 700px;
+    margin-top: 50px;
+}
+
+figure {
+
+    width: 400px;
+    height: 340px;
+
+    display: inline-block;
+    background-color: rgba(23, 195, 233, 0.455);
+    
+}
+
+.hdr1, .hdr2, .hdr3, .hdr4 {
+    margin-top: 15px;
+}
+
+.algo {
+    margin: 50px 520px;
+    height: 370px;
+}
+
+.but1 {
+
+    color: white;
+    background-color: green;
+
+    float: right;
+    margin: 150px 5px;
+    
+    font-size: 27px;
+    text-decoration: none;
+
+    border-radius: 5px; 
+    border: 15px solid green;
+
+}
+
+.sp1 {
+    font-weight: 100000px;
+}
