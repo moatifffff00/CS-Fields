@@ -1,112 +1,169 @@
-e<!DOCTYPE html>
-
+<!DOCTYPE html>
 <html>
 
-<head> 
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/p2.css">
+    <link rel="icon" href="../../Photos/CSfavicon.png">
+    <title>Basics of Computer Science</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
 
-    <meta charset = "UTF-8">
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
 
-    <link rel = "stylesheet", href = "../CSS/p2 .css">
-    <link rel = "icon", href = "../../Photos/CS favicon .png">
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
 
-    <title> Basics of Computer Science </title>
-    
+        header p {
+            font-style: italic;
+            margin-top: 5px;
+        }
+
+        /* Add animation to figures */
+        .sec figure {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .sec figure:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Additional CSS for footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .but1 {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border: 2px solid #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .but1:hover {
+            background-color: #fff;
+            color: #333;
+        }
+
+        /* Additional CSS for the ">" span */
+        .sp1 {
+            margin-left: 5px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .but1:hover .sp1 {
+            transform: translateX(5px);
+        }
+    </style>
 </head>
 
-    <body>
+<body>
 
     <header>
-
-        <h1 class = "hdr"> Essential subjects before studying any technology </h1>
-        <p> *You can skip step 3 and 4 for Front-end and non-advanced cybersecurity* </p>
-
-
+        <h1 class="hdr">Essential subjects before studying any technology</h1>
+        <p>*You can skip step 3 and 4 for Front-end and non-advanced cybersecurity*</p>
     </header>
 
-    <section class = "sec">
+    <section class="sec">
 
-        <figure class = "fund">
-
-            <h1 class = "hdr1"> 1. Fundamentals </h1>
+        <figure class="fund">
+            <h1 class="hdr1">1. Fundamentals</h1>
             <hr>
-            <br>
-
-            <ul class = "ul1">
-
-                <li> Data types </li>
-                <li> Conditions </li>
-                <li> Loops </li>
-                <li> Arrays and Strings </li>
-                <li> Functions </li>  
-
+            <ul class="ul1">
+                <li>Data types</li>
+                <li>Conditions</li>
+                <li>Loops</li>
+                <li>Arrays and Strings</li>
+                <li>Functions</li>
             </ul>
-
         </figure>
 
-        <figure class = "OOP">
-
-            <h1 class = "hdr2"> 2. Object-Oriented Programming </h1>
+        <figure class="OOP">
+            <h1 class="hdr2">2. Object-Oriented Programming</h1>
             <hr>
-            <br>
-
-            <ul class = "ul2">
-
-                <li> Classes and Objects </li>
-                <li> Encapsulation </li>
-                <li> Abstraction </li>
-                <li> Inheritance </li>
-                <li> Polymorphism </li>
-                
-
+            <ul class="ul2">
+                <li>Classes and Objects</li>
+                <li>Encapsulation</li>
+                <li>Abstraction</li>
+                <li>Inheritance</li>
+                <li>Polymorphism</li>
             </ul>
-
         </figure>
 
-        <figure class = "DS">
-
-            <h1 class = "hdr3"> 3. Data Structures </h1>
+        <figure class="DS">
+            <h1 class="hdr3">3. Data Structures</h1>
             <hr>
-            <br>
-
-            <ul class = "ul3">
-
-                <li> Linked Lists </li>
-                <li> Stacks </li>
-                <li> Queues </li>
-                <li> Trees </li>
-                <li> Graph </li>
-
+            <ul class="ul3">
+                <li>Linked Lists</li>
+                <li>Stacks</li>
+                <li>Queues</li>
+                <li>Trees</li>
+                <li>Graph</li>
             </ul>
-
         </figure>
 
-        <figure class = "algo">
-
-            <h1 class = "hdr4"> 4. Algorithms </h1>
+        <figure class="algo">
+            <h1 class="hdr4">4. Algorithms</h1>
             <hr>
-            <br>
-
-            <ul class = "ul4">
-
-                <li> Searching and Sorting </li>
-                <li> Brute force </li>
-                <li> Greedy </li>
-                <li> Recursion and Backtracking </li>
-                <li> Tree algorithms </li>
-                <li> Graph algorithms </li>
-                <li> Dynamic Programming </li>
-
+            <ul class="ul4">
+                <li>Searching and Sorting</li>
+                <li>Brute force</li>
+                <li>Greedy</li>
+                <li>Recursion and Backtracking</li>
+                <li>Tree algorithms</li>
+                <li>Graph algorithms</li>
+                <li>Dynamic Programming</li>
             </ul>
-
         </figure>
 
     </section>
 
     <footer>
-
-        <a class = "but1", href = "p3 .html"> Start a technology <span class = "sp1"> > </span> </a>
-
+        <a class="but1" href="p3.html">Start a technology<span class="sp1">></span></a>
     </footer>
 
+    <script>
+        const spanArrow = document.querySelector('.sp1');
+
+        spanArrow.addEventListener('mouseover', () => {
+            spanArrow.style.transform = 'translateX(5px)';
+        });
+
+        spanArrow.addEventListener('mouseout', () => {
+            spanArrow.style.transform = 'translateX(0)';
+        });
+    </script>
+
 </body>
+
 </html>
