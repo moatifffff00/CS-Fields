@@ -77,3 +77,23 @@ figure {
 .sp1 {
     font-weight: 100000px;
 }
+
+
+
+
+a {
+    text-decoration: none;
+    color: inherit; /* Optional: retains the default color */
+}
+
+/* Specific style for links within the navigation */
+nav a {
+    text-decoration: none;
+    color: #fff; /* Example color */
+}
+
+/* Specific style for links within a certain section */
+.section-class a {
+    text-decoration: none;
+    color: #333; /* Example color */
+}

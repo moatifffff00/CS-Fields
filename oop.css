@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* General styles for the body and headings */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f4f4f4;
+   color: #333;
+}
+
+h1, h2, h3 {
+   font-weight: bold;
+}
+
+/* Header styles */
+header {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 20px 0;
+}
+
+/* Navigation styles */
+nav {
+   background-color: #444;
+   color: #fff;
+   text-align: center;
+   padding: 10px 0;
+}
+
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+nav ul li {
+   display: inline;
+   margin-right: 20px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: #fff;
+   font-weight: bold;
+   transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+   color: #ffcc00;
+}
+
+/* Section styles */
+section {
+   padding: 20px;
+   text-align: center;
+}
+
+/* Class for the details in each section */
+.oop-details {
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+/* Styles for headings and paragraphs within sections */
+.oop-details h2 {
+   font-size: 28px;
+   margin-bottom: 10px;
+}
+
+.oop-details p {
+   font-size: 18px;
+   line-height: 1.6;
+}
